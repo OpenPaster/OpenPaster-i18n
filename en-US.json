@@ -1,0 +1,23 @@
+{
+    "$schema": "file:///Users/seven/ws/OpenPaster/src/const/i18n/lang/scheme.json",
+    "app": {
+        "name": "OpenPaster"
+    },
+    "paster_panel": {
+        "title": "Paster Panel",
+        "character_count": "char"
+    },
+    "record_type": {
+        "text": "Text",
+        "html": "HTML",
+        "image": "Image",
+        "file": "File"
+    },
+    "menu": {
+        "settings": "Settings",
+        "about": "About",
+        "help": "Help",
+        "pause": "Pause",
+        "exit": "Exit"
+    }
+}

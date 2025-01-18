@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://openpaster.sevenid.com/i18n/lang/scheme/0-1",
+    "title": "OpenPaster i18n schema",
+    "description": "OpenPaster i18n schema",
+    "type": "object",
+    "properties": {
+        "app": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Application name",
+                    "default": "OpenPaster"
+                }
+            }
+        },
+        "paster_panel": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "Panel title",
+                    "default": "Paster Panel"
+                },
+                "character_count": {
+                    "type": "string",
+                    "description": "Character count label",
+                    "default": "char"
+                }
+            }
+        },
+        "record_type": {
+            "type": "object",
+            "properties": {
+                "text": {
+                    "type": "string",
+                    "description": "Text type label",
+                    "default": "Text"
+                },
+                "html": {
+                    "type": "string",
+                    "description": "HTML type label",
+                    "default": "HTML"
+                },
+                "image": {
+                    "type": "string",
+                    "description": "Image type label",
+                    "default": "Image"
+                },
+                "file": {
+                    "type": "string",
+                    "description": "File type label",
+                    "default": "File"
+                }
+            }
+        },
+        "menu": {
+            "type": "object",
+            "properties": {
+                "settings": {
+                    "type": "string",
+                    "description": "Settings menu item",
+                    "default": "Settings"
+                },
+                "about": {
+                    "type": "string",
+                    "description": "About menu item",
+                    "default": "About"
+                },
+                "help": {
+                    "type": "string",
+                    "description": "Help menu item",
+                    "default": "Help"
+                },
+                "pause": {
+                    "type": "string",
+                    "description": "Pause menu item",
+                    "default": "Pause"
+                },
+                "exit": {
+                    "type": "string",
+                    "description": "Exit menu item",
+                    "default": "Exit"
+                }
+            }
+        }
+    }
+}
