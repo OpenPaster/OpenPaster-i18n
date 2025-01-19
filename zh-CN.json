@@ -1,11 +1,13 @@
 {
     "$schema": "./scheme.json",
     "app": {
-        "name": "OpenPaster"
+        "name": "OpenPaster",
+        "font_family": "-apple-system, 'PingFang SC', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif"
     },
     "paster_panel": {
         "title": "粘贴板",
-        "character_count": "字符"
+        "char_count_single": "个字符",
+        "char_count_plural": "个字符"
     },
     "record_type": {
         "text": "文本",

@@ -1,11 +1,13 @@
 {
-    "$schema": "file:///Users/seven/ws/OpenPaster/src/const/i18n/lang/scheme.json",
+    "$schema": "scheme.json",
     "app": {
-        "name": "OpenPaster"
+        "name": "OpenPaster",
+        "font_family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
     },
     "paster_panel": {
         "title": "Paster Panel",
-        "character_count": "char"
+        "char_count_single": "char",
+        "char_count_plural": "chars"
     },
     "record_type": {
         "text": "Text",
